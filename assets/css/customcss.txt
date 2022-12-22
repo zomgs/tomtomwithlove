@@ -1,0 +1,99 @@
+
+.my-slider {
+	padding-top: 2rem;
+	margin-top: 1rem;
+}
+
+
+
+
+.nav-container {
+	position: relative;
+}
+
+.controls {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    background: #333;
+    width: 100%;
+    top: 50%;
+
+	z-index: 2;
+}
+
+.controls li {
+    display: block;
+    position: absolute;
+    padding: 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls .prev {
+    left: 0;
+}
+
+.controls .next {
+    right: 0;
+}
+
+.content {
+  max-width: 960px;
+  padding: 0 20px;
+  margin: 0 auto!important;
+  
+}
+
+.page-title {
+	padding: 50px 0 20px 0; 
+	margin: 0; 
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: "Source Sans Pro",sans-serif;
+}
+
+@media all and (min-width: 56.25em) {
+  .hero {
+    padding: calc(20vh - 7.3rem) 6rem 1	7vh;
+  }
+}
+
+
+.gallery-slider {
+    text-align: center;
+    text-transform: uppercase;
+	margin-top: calc(1.8666666667rem + 0.5vw);
+    font-family: var(--menu-font);
+	
+    font-size: .7901234568rem;
+    letter-spacing: .025em;
+    border-top: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
+}
+
+.gallery-slider > h1 {
+	text-transform: uppercase;
+	padding-bottom: 1rem;
+	
+}
+
+.slider-title{
+    font-size: 0.7901234568rem;
+    padding: 0.9rem;
+    text-transform: uppercase;
+	margin: 0 0 1em 0; 
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: "Source Sans Pro",sans-serif;
+	color: var(--nav-color);
+	text-align: center;
+	margin-bottom: calc(2.6666666667rem + .5vw);  
+}
+@media all and (min-width: 37.5em) {
+  .slider-title {
+    margin: 0 0.1333333333rem 0;
+  }
+}
